@@ -1,0 +1,10 @@
+<div class="card mb-3">
+  <div class="card-block">
+    <h1 class="card-title">ChartJs demo</h1>
+    <select id="chartSwitcher" [(ngModel)]="selectedType" class="form-control" (change)="changeChart()">
+      <option *ngFor="let c of chartTypes" [value]="c">{{ c }}</option>
+    </select>
+    <canvas id="myChart" width="700" height="400"></canvas>
+  </div>
+</div>
+
