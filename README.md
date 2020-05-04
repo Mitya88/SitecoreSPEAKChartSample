@@ -1,6 +1,7 @@
 # Sitecore SPEAK3 ChartJS demo
 
 This repository contains ChartJS demo on Sitecore SPEAK3
+[BlogPost](https://medium.com/@mitya_1988/using-chartjs-in-sitecore-speak3-63d2b95ce379)
 
 ## Setup
 
